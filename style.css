@@ -1,0 +1,79 @@
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+/* Chat container */
+.chat-box {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  background: #0a7cff;
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Messages area */
+.messages {
+  padding: 12px;
+  flex: 1;
+  overflow-y: auto;
+  background: #fafafa;
+}
+
+/* Assistant message */
+.msg.assistant {
+  background: #e6f0ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  max-width: 80%;
+}
+
+/* Client message */
+.msg.client {
+  background: #0a7cff;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  font-size: 14px;
+  max-width: 80%;
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.input-area button {
+  background: #0a7cff;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
